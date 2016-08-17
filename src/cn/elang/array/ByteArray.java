@@ -1,7 +1,11 @@
 package cn.elang.array;
 
 import java.io.*;
-
+/**
+ * 字节数组
+ * @author elang
+ *
+ */
 public class ByteArray
 {
 	public static void main(String args[])
