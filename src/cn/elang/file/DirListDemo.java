@@ -1,3 +1,4 @@
+package cn.elang.file;
 import java.io.*;
 
 /**
@@ -5,7 +6,7 @@ import java.io.*;
  * @author elang
  *
  */
-public class DirList {
+public class DirListDemo {
 	public static void main(String[] args) {
 		try {
 			File path = new File("file");
