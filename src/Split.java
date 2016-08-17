@@ -1,10 +1,13 @@
 import java.net.URI;
 
-
+/**
+ *  分隔符测试
+ * @author elang
+ *
+ */
 public class Split {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str ="glory://host1:/vol1";
 		URI uri = URI.create(str); 
 		str=uri.getPath();
