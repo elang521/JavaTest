@@ -5,7 +5,7 @@ import java.io.*;
  * @author elang
  *
  */
-public class Cmd {
+public class MountDemo {
 
 	public static void main(String[] args) throws IOException {
 		String mgt_host = "host1";
