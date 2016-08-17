@@ -5,7 +5,7 @@ import java.io.*;
  * @author elang
  *
  */
-public class ObjectStream
+public class ObjectStreamDemo
 {
 	public static void main(String args[]) throws IOError, ClassNotFoundException, IOException
 	{
