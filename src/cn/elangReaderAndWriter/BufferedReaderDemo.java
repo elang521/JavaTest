@@ -1,7 +1,11 @@
 package cn.elangReaderAndWriter;
 
 import java.io.*;
-
+/**
+ * 缓冲区字符流
+ * @author elang
+ *
+ */
 public class BufferedReaderDemo
 {
 

@@ -5,7 +5,11 @@ import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-
+/**
+ * 带缓冲区的字符流实现文件拷贝
+ * @author elang
+ *
+ */
 public class CopyTextByBuf
 {
 

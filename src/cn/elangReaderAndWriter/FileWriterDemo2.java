@@ -2,7 +2,11 @@ package cn.elangReaderAndWriter;
 
 import java.io.FileWriter;
 import java.io.IOException;
-
+/**
+ * 写文件
+ * @author elang
+ *
+ */
 public class FileWriterDemo2
 {
 	public static void main(String[] args) throws IOException

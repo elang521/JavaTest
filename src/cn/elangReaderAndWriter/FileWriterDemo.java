@@ -3,6 +3,11 @@ package cn.elangReaderAndWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
+/**
+ * 写文件字符流测试
+ * @author elang
+ *
+ */
 public class FileWriterDemo
 {
 

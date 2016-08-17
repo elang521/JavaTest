@@ -3,6 +3,11 @@ package cn.elangReaderAndWriter;
 import java.io.FileReader;
 import java.io.IOException;
 
+/**
+ * 文件字符流
+ * @author elang
+ *
+ */
 public class FileReaderDemo
 {
 
@@ -19,11 +24,6 @@ public class FileReaderDemo
 					break;
 				System.out.print((char)ch);
 			}
-//			char buf[]=new char[100];
-//			
-//			fr.read(buf,0,10);
-//			fr.read(buf);
-//			System.out.println(buf);
 			fr.close();
 		}
 		catch(IOException e)
