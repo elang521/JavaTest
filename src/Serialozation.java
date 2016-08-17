@@ -1,9 +1,14 @@
 import java.io.*;
 
+/**
+ * 
+ * @author elang
+ *
+ */
 public class Serialozation {
 	public static void main(String args[]) throws IOError,ClassNotFoundException, IOException{
 		Student stu=new Student(19, "elang", 25, "huaxue");
-		FileOutputStream fos=new FileOutputStream("mytext.txt");
+		FileOutputStream fos=new FileOutputStream("file/mytext.txt");
 		ObjectOutputStream os=new ObjectOutputStream(fos);
 		try{
 			os.writeObject(stu);
@@ -12,7 +17,7 @@ public class Serialozation {
 			System.out.println(e.getMessage());
 		}
 		stu=null;
-		FileInputStream fis=new FileInputStream("mytext.txt");
+		FileInputStream fis=new FileInputStream("file/mytext.txt");
 		ObjectInputStream is=new ObjectInputStream(fis);
 		try {
 			stu=(Student)is.readObject();
