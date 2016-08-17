@@ -1,5 +1,10 @@
 import java.io.*;
 
+/**
+ * 挂载测试
+ * @author elang
+ *
+ */
 public class Cmd {
 
 	public static void main(String[] args) throws IOException {
