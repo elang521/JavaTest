@@ -1,5 +1,10 @@
 import java.io.*;
 
+/**
+ * 文件夹下的文件列表
+ * @author elang
+ *
+ */
 public class DirList {
 	public static void main(String[] args) {
 		try {
