@@ -1,7 +1,7 @@
 import java.io.*;
 
 /**
- * 
+ * 对象的写入
  * @author elang
  *
  */
@@ -37,7 +37,7 @@ public class ObjectStreamDemo
 		System.out.println("department:" + stu.department);
 	}
 }
-
+//写入的对象必须继承Serializable
 class Student implements Serializable
 {
 	int id;
