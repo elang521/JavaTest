@@ -17,5 +17,4 @@ public class Split {
 			System.out.println(arr[i]);
 		}
 	}
-
 }
