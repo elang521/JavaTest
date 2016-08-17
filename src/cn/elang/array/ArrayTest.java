@@ -1,5 +1,10 @@
 package cn.elang.array;
 
+/**
+ * 数组测试
+ * @author elang
+ *
+ */
 public class ArrayTest {
 
 	public static void main(String[] args) {
