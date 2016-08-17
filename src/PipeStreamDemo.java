@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class PipeStreamTest {
+public class PipeStreamDemo {
 	public static void main(String args[])
 	{
 		try{
